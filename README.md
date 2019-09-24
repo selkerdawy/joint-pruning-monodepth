@@ -2,7 +2,7 @@
 Lightweight Monocular Depth Estimation Model by Joint End-to-End Filter pruning.
 
 # **Demo**
-Sample video showing the pruned vgg model and the baseline [monodepth vgg](https://github.com/mrharicot/monodepth "monodepth vgg") running on GTX 1080 Ti with 60 and 33 frame per second respectively; The demo is slowed down for demonstration only. The demo shows that even with more than 80% compression rate, the pruned network shows both qualitatively and quantitatively small drop in accuracy compared to the baseline network.
+[Sample video](https://www.youtube.com/watch?v=gSkuJB7Or5w) showing the pruned vgg model and the baseline [monodepth vgg](https://github.com/mrharicot/monodepth "monodepth vgg") running on GTX 1080 Ti with 60 and 33 frame per second respectively; The demo is slowed down for demonstration only. The demo shows that even with more than 80% compression rate, the pruned network shows both qualitatively and quantitatively small drop in accuracy compared to the baseline network.
 
 # Inference
 Sample code for inference using the pruned vgg model trained on eigen split is provided, usage:
