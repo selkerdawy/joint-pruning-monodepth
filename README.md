@@ -10,10 +10,13 @@ Sample code for inference using the pruned vgg model trained on eigen split is p
 python sample_code.py --dir PATH/TO/KITTI/2011_09_26/2011_09_26_drive_0064_sync/image_02/data/ --checkpoint_path model/model-0.data-00000-of-00001
 ```
 
+**Environment**
+```bash
 virtualenv is recommended and install requirements from req.txt:
 virtualenv -p python3 .env
 source .env/bin/activate
 pip install -r req.txt
+```
 
 Training code will be added soon.
 
