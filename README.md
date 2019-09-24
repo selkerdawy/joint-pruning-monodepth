@@ -11,8 +11,8 @@ python sample_code.py --dir PATH/TO/KITTI/2011_09_26/2011_09_26_drive_0064_sync/
 ```
 
 **Environment**
-```bash
 virtualenv is recommended and install requirements from req.txt:
+```bash
 virtualenv -p python3 .env
 source .env/bin/activate
 pip install -r req.txt
