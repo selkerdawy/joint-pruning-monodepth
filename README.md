@@ -22,3 +22,16 @@ Training code will be added soon.
 
 # Supplementary materials
 Full depth metrics disrcarded from original paper due to space, details on the number of filters per layer in the pruned network, and comparison between weights sparsity vs masks sparsity.
+
+## Cite 
+If you find this code useful in your research, please consider citing:
+```
+@inproceedings{elkerdawy2019lightweight,
+  title={Lightweight monocular depth estimation model by joint end-to-end filter pruning},
+  author={Elkerdawy, Sara and Zhang, Hong and Ray, Nilanjan},
+  booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+  pages={4290--4294},
+  year={2019},
+  organization={IEEE}
+}
+```
